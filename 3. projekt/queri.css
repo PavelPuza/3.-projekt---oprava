@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .fish {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    position: relative;
+  }
+
+  header nav {
+    top: 70px;
+    background-color: rgb(43, 160, 255);
+    width: 100%;
+    display: none;
+  }
+
+  header ul {
+    display: block !important;
+  }
+
+  header nav li {
+    display: block;
+    text-align: center;
+    height: 30px;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    height: 40px;
+  }
+}
+
+@media (min-width: 576px) {
+  header nav {
+    display: block !important;
+  }
+}
